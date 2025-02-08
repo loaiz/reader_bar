@@ -1,5 +1,6 @@
 flask
 opencv-python
-pyzbar
 numpy
+pyzbar
+zbar-py
 gunicorn
