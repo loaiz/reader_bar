@@ -3,7 +3,7 @@ import cv2
 from pyzbar.pyzbar import decode
 
 app = Flask(__name__)
-camera = cv2.VideoCapture(3)  # Usa la cámara principal
+camera = cv2.VideoCapture(0)  # Usa la cámara principal
 
 def generate_frames():
     while True:
